@@ -40,7 +40,7 @@ const Cell = ({ letter, result, id, line }: Props) => {
         cell.style.color = 'rgb(156 163 175)';
         cell.style.boxShadow = 'none';
       } else {
-        cell.style.backgroundColor = 'transparent';
+        cell.style.color = 'white';
       }
     }
   }, [result, id]);
