@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Key from './Key';
 import { useStateContext } from '@/context/StateContext';
 import words from '@/app/words';
@@ -101,7 +101,7 @@ const Keyboard = () => {
     }
   };
 
-  const handleKeyDown = (e) => {
+  const handleKeyDown = (e: KeyboardEvent) => {
     if (e.key === 'Backspace') {
       deleteLetter();
     }
