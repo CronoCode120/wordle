@@ -57,7 +57,8 @@ const Key = ({ value }: Props) => {
     <button
       type='button'
       id={value}
-      className='text-2xl font-semibold max-sm:w-[22px] w-[40px] h-[50px] rounded-lg bg-[#3a3a3c] m-1'
+      translate='no'
+      className='text-2xl max-sm:text-lg font-semibold max-sm:w-[22px] w-[40px] h-[50px] rounded-lg bg-[#3a3a3c] m-1'
       onClick={() => setCells(prevCells => {
         const length = prevCells.filter(val => val !== '').length;
         if (length < 5) {

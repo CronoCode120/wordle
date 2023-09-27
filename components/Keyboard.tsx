@@ -152,6 +152,7 @@ const Keyboard = () => {
         type='button'
         aria-label='Enter'
         title='Enter'
+        translate='no'
         className='text-2xl max-sm:w-[35px] w-[80px] h-[50px] rounded-lg bg-gray-800 m-1'
         onClick={() => {
           if (cells.filter(val => val !== '').length === 5 && !end.show) {

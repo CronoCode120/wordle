@@ -83,7 +83,7 @@ const Cell = ({ letter, result, id, line }: Props) => {
   }, [curWord]);
 
   return (
-    <div id={id} className='rounded-lg border-[2px] border-gray-800 w-[55px] h-[55px] flex justify-center items-center text-4xl font-bold transition-all duration-250'>
+    <div id={id} translate='no' className='rounded-lg border-[2px] border-gray-800 w-[55px] h-[55px] flex justify-center items-center text-4xl font-bold transition-all duration-250'>
       {letter}
     </div>
   )

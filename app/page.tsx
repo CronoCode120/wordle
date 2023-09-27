@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <div id="main" className="w-screen h-screen flex flex-col">
       <header className="h-14 flex justify-between items-center px-6">
-        <h1 className="font-bold text-3xl">Wordle</h1>
+        <h1 translate="no" className="font-bold text-3xl">Wordle</h1>
         <button type="button" aria-label="Help" title="Help" onClick={showHelp}>
           <FontAwesomeIcon icon={faQuestionCircle} size="xl"/> Help
         </button>
