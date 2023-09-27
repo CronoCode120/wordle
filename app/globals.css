@@ -19,6 +19,7 @@
 body {
   color: white;
   background-color: black;
+  width: 100vw;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
 }
